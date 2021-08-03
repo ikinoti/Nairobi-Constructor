@@ -15,48 +15,50 @@
   </head>
   <body>
     <!-- Nav Section -->
-    <div class="container-fluid" id="navBar">
+
+    <nav
+      class="
+        navbar navbar-expand-lg navbar-dark
+        shadow
+        p-1
+        mb-1
+        rounded
+        fixed-top
+      "
+      id="navbar"
+    >
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container-fluid">
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarTogglerDemo03"
-              aria-controls="navbarTogglerDemo03"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">Navbar</a>
-            <div
-              class="collapse navbar-collapse text-end"
-              id="navbarTogglerDemo03"
-            >
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Project</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact Us</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+        <a href="#" class="navbar-brand fw-bold fs-2">uConstuctors</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto fs-4">
+            <li class="nav-item">
+              <a href="#index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="service.html" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="project.html" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </nav>
 
     <!-- script -->
     <script
