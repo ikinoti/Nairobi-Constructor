@@ -1,5 +1,5 @@
 body{
-  background-image: url("../assets/constructioncontact1.jpg");
+  background-image: url("../assets/constructioncontact2.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 2000px;
@@ -17,6 +17,19 @@ body{
   color: whitesmoke;
   padding: 20px;
 }
-#FormControlInput3{
+#submit-btn{
+  margin-left: 5px;
   float: right;
+}
+#contact-us{
+  text-align: center;
+}
+#clientForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 800px;
+  height:800px;
+  margin-bottom:5px;
+  padding-bottom: 5px; */
 }
