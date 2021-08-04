@@ -7,3 +7,15 @@
   color: whitesmoke;
   padding: 20px;
 }
+.item{
+  width:40%;
+  height:40%;
+}
+#logo{
+  height:40%;
+  width:40%;
+  text-align:center;
+  display: block;
+
+
+}
