@@ -1,4 +1,37 @@
 <<<<<<< HEAD
+body{
+  background-image: url("../assets/constructioncontact2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 2000px;
+  width:100%;
+  height:100%;
+}
+#navbar {
+  background-color: #362222
+;
+  color: whitesmoke;
+}
+#contactf {
+  background-color: #362222
+;
+  color: whitesmoke;
+  padding: 20px;
+}
+#submit-btn{
+  margin-left: 5px;
+  float: right;
+}
+#contact-us{
+  text-align: center;
+}
+#clientForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+=======
+<<<<<<< HEAD
 *{
   padding: 0;
   margin: 0;
@@ -55,4 +88,5 @@ height:300px;
 {
   padding-left: 50%;
 }
+>>>>>>> ikinoti
 >>>>>>> ikinoti
