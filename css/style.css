@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
   background-image: url("../assets/constructioncontact2.jpg");
   background-repeat: no-repeat;
@@ -29,3 +30,63 @@ body{
   justify-content: center;
   align-items: center;
 }
+=======
+<<<<<<< HEAD
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-image: url(../assets/daniel-mensah-boafo-CPlVvVibKhA-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#navbar {
+  background-color: #362222;
+  color: whitesmoke;
+  align-items: center;
+}
+
+.about{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 90vh;
+}
+.wrap{
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  max-width: 700px;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+
+
+=======
+#navbar {
+  background-color: #362222;
+  color: whitesmoke;
+}
+>>>>>>> ikinoti
+#contactf {
+  background-color: #362222;
+  color: whitesmoke;
+  padding: 20px;
+}
+<<<<<<< HEAD
+=======
+.item{
+  width:40%;
+  height:40%;
+}
+#logo{
+padding-left: 20%;
+height:300px;
+}
+#aboutID
+{
+  padding-left: 50%;
+}
+>>>>>>> ikinoti
+>>>>>>> ikinoti
