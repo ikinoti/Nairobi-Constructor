@@ -22,3 +22,12 @@
   margin-top: 78%;
   margin-bottom: 0;
 }
+#after1,
+#after2,
+#after3,
+#after4,
+#after5,
+#after6,
+#after7 {
+  display: none;
+}
