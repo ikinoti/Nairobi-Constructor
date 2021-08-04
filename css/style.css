@@ -15,3 +15,10 @@
   padding: 30px;
   background-color: #5e5656;
 }
+#projectInfo {
+  background-color: rgba(58, 34, 34, 0.7);
+  color: whitesmoke;
+  height: 22%;
+  margin-top: 78%;
+  margin-bottom: 0;
+}
