@@ -1,0 +1,33 @@
+#navbar {
+  background-color: #362222;
+  color: whitesmoke;
+}
+#contactf {
+  background-color: #362222;
+  color: whitesmoke;
+  padding: 20px;
+  margin-top: 0 !important;
+}
+
+#projects {
+  margin-top: 80px;
+  margin-bottom: 0;
+  padding: 30px;
+  background-color: #5e5656;
+}
+#projectInfo {
+  background-color: rgba(58, 34, 34, 0.7);
+  color: whitesmoke;
+  height: 22%;
+  margin-top: 78%;
+  margin-bottom: 0;
+}
+#after1,
+#after2,
+#after3,
+#after4,
+#after5,
+#after6,
+#after7 {
+  display: none;
+}
