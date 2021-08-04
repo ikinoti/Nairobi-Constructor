@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    background-image: url(../assets/costruction.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #navbar {
+    background-color: #362222;
+    color: whitesmoke;
+    align-items: center;
+  }
+  
+  .service{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 90vh;
+  }
+  .wrap{
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    max-width: 700px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  }
+  
+  footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%
+  }
+  
+  #contactf {
+    background-color: #362222;
+    color: whitesmoke;
+    padding: 20px;
+  }
+  
