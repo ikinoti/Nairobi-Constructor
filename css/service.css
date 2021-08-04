@@ -27,11 +27,9 @@
     background: rgba(0, 0, 0, 0.5);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
   }
-  
-  footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%
+
+  ul, li{
+      list-style: none;
   }
   
   #contactf {
