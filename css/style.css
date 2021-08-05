@@ -19,8 +19,8 @@ body {
   color: whitesmoke;
   background-color: #000000;
 }
-.about {
-  background-image: url(../assets/daniel-mensah-boafo-CPlVvVibKhA-unsplash.jpg);
+.about,
+.service {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center center;
@@ -29,6 +29,13 @@ body {
   display: flex;
   height: 90vh;
 }
+.about {
+  background-image: url(../assets/daniel-mensah-boafo-CPlVvVibKhA-unsplash.jpg);
+}
+.service {
+  background-image: url("../assets/costruction.jpg");
+}
+
 .wrap {
   color: whitesmoke;
   align-items: center;
@@ -38,6 +45,18 @@ body {
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
 }
 
+#submit-btn {
+  margin-left: 5px;
+  float: right;
+}
+#contact-us {
+  text-align: center;
+}
+#clientForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #contactf {
   background-color: #362222;
   color: whitesmoke;
