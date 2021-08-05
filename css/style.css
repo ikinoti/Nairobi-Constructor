@@ -1,0 +1,65 @@
+/* <<<<<<< HEAD */
+body {
+  background-color: lightgrey;
+}
+#navbar {
+  background-color: #362222;
+  color: whitesmoke;
+}
+#showcase {
+  margin-top: 80px;
+}
+#sectionW {
+  margin-top: 100px;
+}
+#sectionM {
+  margin-top: 100px;
+  margin-bottom: 0;
+  padding: 50px;
+  color: whitesmoke;
+  background-color: #000000;
+}
+.about,
+.service {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 90vh;
+}
+.about {
+  background-image: url(../assets/daniel-mensah-boafo-CPlVvVibKhA-unsplash.jpg);
+}
+.service {
+  background-image: url("../assets/costruction.jpg");
+}
+
+.wrap {
+  color: whitesmoke;
+  align-items: center;
+  max-width: 1000px;
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
+}
+
+#submit-btn {
+  margin-left: 5px;
+  float: right;
+}
+#contact-us {
+  text-align: center;
+}
+#clientForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contactf {
+  background-color: #362222;
+  color: whitesmoke;
+  padding: 20px;
+  margin-top: 0 !important;
+}
