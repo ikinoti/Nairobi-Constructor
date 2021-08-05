@@ -28,6 +28,7 @@ body {
   justify-content: center;
   display: flex;
   height: 90vh;
+  margin-top: 80px;
 }
 .about {
   background-image: url(../assets/daniel-mensah-boafo-CPlVvVibKhA-unsplash.jpg);
@@ -45,6 +46,9 @@ body {
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
 }
 
+.wrap h3 {
+  color: #eb1010;
+}
 #submit-btn {
   margin-left: 5px;
   float: right;
@@ -62,4 +66,10 @@ body {
   color: whitesmoke;
   padding: 20px;
   margin-top: 0 !important;
+}
+#contactUs {
+  margin-top: 80px !important;
+  margin-left: 100px;
+  height: 70vh;
+  padding: 100px;
 }
