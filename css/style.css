@@ -12,3 +12,10 @@ body {
 #sectionW {
   margin-top: 100px;
 }
+#sectionM {
+  margin-top: 100px;
+  margin-bottom: 0;
+  padding: 50px;
+  color: whitesmoke;
+  background-color: #000000;
+}
