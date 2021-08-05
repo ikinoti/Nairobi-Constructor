@@ -4,23 +4,49 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<<<<<<< HEAD
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="css/style.css" type="text/css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <link rel="head icon" href="./assets/logo2.png" type="image/png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <title>Contacts Us</title>
   </head>
   <body>
-    <nav class=" navbar navbar-expand-lg navbar-dark  shadow  p-1  mb-1  rounded fixed-top "  id="navbar" >
+    <nav
+      class="
+        navbar navbar-expand-lg navbar-dark
+        shadow
+        p-1
+        mb-1
+        rounded
+        fixed-top
+      "
+      id="navbar"
+    >
       <div class="container">
-        <a href="index.html" class="navbar-brand fw-bold fs-2">uConstuctors</a>       
-         <button class="navbar-toggler"type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" >
+        <a href="index.html" class="navbar-brand fw-bold fs-2"
+          >NairobiConstuctors</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav ms-auto fs-4">
             <li class="nav-item">
-              <a href="#index.html" class="nav-link">Home</a>
+              <a href="index.html" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
               <a href="about.html" class="nav-link">About Us</a>
@@ -38,230 +64,116 @@
         </div>
       </div>
     </nav>
-    <br><br><br>
-    <section id="contactForm">
-      <form id="clientForm"> 
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-                <h3 id="contact-us">Contact Us</h3>
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Name</label>
-                  <input type="text" class="form-control" id="FormControlInput1" placeholder="Full name..." required>
-                </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-3">
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="FormControlInput2" placeholder="name@example.com..." required>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Phone No</label>
-                  <input type="tel"  pattern="[0]{1}[0-9]{3}[0-9]{3}[0-9]{3}" class="form-control" id="FormControlInput3" placeholder="0721222222..." required>
-                </div>
-            </div>
+    <!-- contact Form -->
+    <section id="contactUs" class="">
+      <div class="container">
+        <form id="clientForm">
+          <div class="container">
             <div class="row">
               <div class="col-md-6">
+                <h3 id="contact-us">Contact Us</h3>
                 <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Your Message here..."></textarea>
-                </div>
-                <div id="hidden">
-                  <p></p>
-                </div>
-                <button id="submit-btn" type="submit" class="btn btn-secondary" value="submit">Submit</button>
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Name</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="FormControlInput1"
+                    placeholder="Full name..."
+                    required
+                  />
                 </div>
               </div>
-            </div>  
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Email</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="FormControlInput2"
+                    placeholder="name@example.com..."
+                    required
+                  />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Phone No</label
+                  >
+                  <input
+                    type="tel"
+                    pattern="[0]{1}[0-9]{3}[0-9]{3}[0-9]{3}"
+                    class="form-control"
+                    id="FormControlInput3"
+                    placeholder="0721222222..."
+                    required
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label"
+                      >Message</label
+                    >
+                    <textarea
+                      class="form-control"
+                      id="exampleFormControlTextarea1"
+                      rows="5"
+                      placeholder="Your Message here..."
+                    ></textarea>
+                  </div>
+                  <div id="hidden">
+                    <p></p>
+                  </div>
+                  <button
+                    id="submit-btn"
+                    type="submit"
+                    class="btn btn-secondary"
+                    value="submit"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </form>
+        </form>
+      </div>
     </section>
+
+    <!-- contact section -->
     <section id="contactf" class="mt-5">
       <div class="container">
-        <h1 class="text-center">Contacts</h1>
-        <div class="row">
-          <div class="col-md-6">
-            <h3>Nairobi constructors</h3>
-            <p>Tel: 020-120950</p>
-            <p>Email: nariobi.constructors@gmail.com</p>
+        <h1 class="text-center">About Us</h1>
+        <div class="row text-center">
+          <div class="col-md-6 text-start">
+            <h3>Contacts</h3>
+            <p>Phone: 020-120940</p>
+            <p>sales@nairobi-constructors.com</p>
           </div>
-          <div class="col-md-6">
-            <h3>Nairobi Constructors</h3>
-            <p>Location: Kenyatta Avenue</p>
-=======
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/style.css" rel="stylesheet" type="text/css">
-  <link rel="head icon" href="assets/logo2.png" type="image/png">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-              <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <title>Document</title>
-  </head>
-
-  <body>
-    <div class="container">
-    <nav
-      class="
-        navbar navbar-expand-lg navbar-dark
-        shadow
-        p-1
-        mb-1
-        rounded
-        fixed-top
-      "
-      id="navbar"
-        <a class="navbar-brand" href="/">
-         <div class="logo-image">
-           <div class="row"
-         <img src="" class="img-fluid">
-        </div>
-      </div>
-       </a>
-        <span class="navbar-toggler-icon"></span>
-       </button>
-       <div class="collapse navbar-collapse" id="navmenu">
-         <ul class="navbar-nav ms-auto fs-4">
-           <li class="nav-item">
-             <a href="#index.html" class="nav-link">Home</a>
-           </li>
-           <li class="nav-item">
-             <a href="about.html" class="nav-link">About Us</a>
-           </li>
-           <li class="nav-item">
-             <a href="service.html" class="nav-link">Services</a>
-           </li>
-           <li class="nav-item">
-             <a href="project.html" class="nav-link">Projects</a>
-           </li>
-           <li class="nav-item">
-             <a href="contact.html" class="nav-link">Contact Us</a>
-           </li>
-         </ul>
-     </div>
- </nav>
-           <head>
-               <img src="assets/logo2.png" id="logo" alt="Building">
-                  <title>Bootstrap Example</title>
-                  <meta charset="utf-8">
-                  <meta name="viewport" content="width=device-width, initial-scale=1">
-                </head>
-                <body>
-
-                <div class="container">
-                  <h2>Portfolio</h2>
-                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                      <li data-target="#myCarousel" data-slide-to="1"></li>
-                      <li data-target="#myCarousel" data-slide-to="2"></li>
-                      <li data-target="#myCarousel" data-slide-to="3"></li>
-
-                    </ol>
-
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner">
-
-                      <div class="item active">
-                        <img src="assets/image1.jpg" alt="cover">
-                      </div>
-
-                      <div class="item">
-                        <img src="assets/image2.jpg" alt="Building1">
-                      </div>
-
-                      <div class="item">
-                        <img src="assets/image3.jpg" alt="Building3">
-                      </div>
-
-                      <div class="item">
-                        <img src="assets/image4.jpeg" alt="Building4">
-                      </div>
-
-                    <div class="item">
-                      <img src="assets/image5.jpg" alt="Building5">
-                    </div>
-
-                  <div class="item">
-                    <img src="assets/image6.jpg" alt="Building6">
-                  </div>
-
-                <div class="item">
-                  <img src="assets/image7.jpg" alt="Building7">
-                </div>
-              <div class="item">
-                <img src="assets/image8.jpg" alt="Building8">
-              </div>
-            </div>
-                    <!-- Left and right controls -->
-                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                      <span class="glyphicon glyphicon-chevron-left"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                      <span class="glyphicon glyphicon-chevron-right"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
-                  </div>
-                </div>
-
-                </body>
-                </html>
-          <div class="container">
-            <div class="cards" class="col-">
-             <p>Welcome to Nairobi Constructors Limited.<br>We are a construction Company based in Nairobi Kenya in operation since 1995</p>
-             <div class="cards"
-               <h2>what we do</h2>
-              <p> We provide construction solutions to corporate and individual clients.<br> We enable them to build,improve or demolish their property </p>
-              <h2>Our Mission</h2>
-                <p>we strive to construct the future of Kenyan homes<p>
-                </div>
-                  <section id="contactf" class="mt-5">
-                    <div>
-                  </div>
-              <div class="container">
-                <h1 class="text-center">About Us</h1>
-                <div class="row">
-                  <div class="col-md-6">
-                    <h3>Contacts</h3>
-                    <p>020-120940</p>
-                    <p>sales@nairobi-constructors.com</p>
-                  </div>
-                  <div class="col-md-6">
+          <div class="col-md-6 text-end">
             <h3>Location</h3>
             <p>Kenyatta Avenue</p>
->>>>>>> ikinoti
             <p>Nairobi, CBD</p>
           </div>
         </div>
       </div>
     </section>
+
     <footer class="bg-dark text-center text-white">
       <div class="container">
         <p class="copyright mb-0 py-2">
-          Copyright &copy;2021 Designed and built by iKinoti
+          Copyright &copy;2021 Designed and built by Group-1
         </p>
       </div>
     </footer>
-<<<<<<< HEAD
     <script src="js/script.js"></script>
   </body>
 </html>
-=======
-          </div>
-           </div>
-           <script src="js/mdb.min.js"></script>
-           <script src="js/jquery-3.6.0.js"></script>
-           <script src="js/script.js"></script>
-        </body>
-
-      </html>
->>>>>>> ikinoti
