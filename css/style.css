@@ -29,3 +29,18 @@ body {
   display: flex;
   height: 90vh;
 }
+.wrap {
+  color: whitesmoke;
+  align-items: center;
+  max-width: 1000px;
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
+}
+
+#contactf {
+  background-color: #362222;
+  color: whitesmoke;
+  padding: 20px;
+  margin-top: 0 !important;
+}
