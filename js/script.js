@@ -1,11 +1,9 @@
-<<<<<<< HEAD
-const submitButtonn=document.getElementById("clientForm");
-submitButtonn.addEventListener('submit',onsubmit)
-function onsubmit(e){
+const submitButtonn = document.getElementById("clientForm");
+submitButtonn.addEventListener("submit", onsubmit);
+function onsubmit(e) {
   e.preventDefault;
   alert("Thank you for your submission, we will contact you shortly");
 }
-=======
 $(document).ready(function () {
   $("#before1").click(function () {
     $("#after1").show();
@@ -69,4 +67,3 @@ $(document).ready(function () {
     $("#after7").hide();
   });
 });
->>>>>>> ikinoti
