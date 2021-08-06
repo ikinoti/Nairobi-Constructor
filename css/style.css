@@ -8,6 +8,13 @@ body {
 }
 #showcase {
   margin-top: 80px;
+  /* height: 60vh; */
+}
+.sc {
+  height: 80vh;
+}
+.scInfo {
+  color: #db0909;
 }
 #sectionW {
   margin-top: 100px;
